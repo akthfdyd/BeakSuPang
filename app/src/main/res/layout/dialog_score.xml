@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="#ff880000"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ad541d"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingLeft="60dp"
+            android:text="오늘 순위"
+            android:textColor="#ffffffff"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ad541d"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/position_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="순위"
+                android:textColor="#ffffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="이름"
+                android:textColor="#ffffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/score_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="연봉"
+                android:textColor="#ffffffff"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/score_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ad541d" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

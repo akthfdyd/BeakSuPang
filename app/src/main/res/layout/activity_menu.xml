@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff880000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffad541d"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/traning_web" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btn_activity_menu_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff880000"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="게임 시작"
+            android:textColor="#ffffffff"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btn_activity_menu_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff880000"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="순위 보기"
+            android:textColor="#ffffffff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
